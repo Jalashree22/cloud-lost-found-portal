@@ -1,0 +1,260 @@
+/* ==========================================
+   CLOUD LOST & FOUND PORTAL
+   Modern UI Theme
+==========================================*/
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+    background:#f8fafc;
+    color:#1f2937;
+    overflow-x:hidden;
+}
+
+/* ===========================
+        NAVBAR
+=========================== */
+
+.navbar{
+    background:rgba(255,255,255,0.95)!important;
+    backdrop-filter:blur(12px);
+    box-shadow:0 8px 30px rgba(0,0,0,.08);
+    padding:15px 0;
+}
+
+.navbar-brand{
+    color:#2563eb!important;
+    font-size:1.6rem;
+    font-weight:700;
+}
+
+.nav-link{
+    color:#374151!important;
+    font-weight:500;
+    margin-left:18px;
+    transition:.3s;
+}
+
+.nav-link:hover{
+    color:#2563eb!important;
+}
+
+/* ===========================
+          HERO
+=========================== */
+
+.hero{
+
+    background:
+    radial-gradient(circle at top right,#dbeafe 0%,transparent 35%),
+    radial-gradient(circle at bottom left,#ede9fe 0%,transparent 30%),
+    linear-gradient(135deg,#f8fbff,#eef5ff);
+
+    padding:120px 20px;
+    border-radius:0 0 70px 70px;
+    text-align:center;
+}
+
+.hero h1{
+
+    font-size:3.9rem;
+    font-weight:700;
+    color:#111827;
+}
+
+.hero p{
+
+    margin-top:20px;
+    color:#6b7280;
+    font-size:1.25rem;
+}
+
+/* ===========================
+        BUTTONS
+=========================== */
+
+.btn{
+
+    border-radius:50px;
+    padding:14px 30px;
+    font-weight:600;
+    transition:.35s;
+}
+
+.btn:hover{
+
+    transform:translateY(-4px);
+    box-shadow:0 12px 25px rgba(0,0,0,.15);
+}
+
+.btn-danger{
+
+    background:#ef4444;
+    border:none;
+}
+
+.btn-success{
+
+    background:#10b981;
+    border:none;
+}
+
+.btn-dark{
+
+    background:#1f2937;
+    border:none;
+}
+
+/* ===========================
+      STATISTICS
+=========================== */
+
+.stats-card{
+
+    border:none;
+    border-radius:25px;
+    background:white;
+    padding:35px;
+    transition:.35s;
+    box-shadow:0 15px 35px rgba(0,0,0,.08);
+}
+
+.stats-card:hover{
+
+    transform:translateY(-10px);
+}
+
+.stats-card h2{
+
+    font-size:2.3rem;
+    font-weight:700;
+    color:#2563eb;
+}
+
+.stats-card p{
+
+    margin-top:10px;
+    color:#6b7280;
+}
+
+/* ===========================
+      FEATURES
+=========================== */
+
+.feature-card{
+
+    background:white;
+    border-radius:25px;
+    padding:40px 30px;
+    transition:.35s;
+    box-shadow:0 15px 40px rgba(0,0,0,.08);
+    height:100%;
+}
+
+.feature-card:hover{
+
+    transform:translateY(-10px);
+}
+
+.feature-card i{
+
+    font-size:3.3rem;
+    color:#3b82f6;
+}
+
+.feature-card h4{
+
+    margin-top:20px;
+    color:#111827;
+    font-weight:600;
+}
+
+.feature-card p{
+
+    margin-top:15px;
+    color:#6b7280;
+    line-height:1.7;
+}
+
+/* ===========================
+       HEADINGS
+=========================== */
+
+h2{
+
+    font-weight:700;
+    color:#111827;
+}
+
+/* ===========================
+       SECTIONS
+=========================== */
+
+section{
+
+    padding:80px 0;
+}
+
+/* ===========================
+        FOOTER
+=========================== */
+
+footer{
+
+    margin-top:80px;
+    background:#111827;
+    color:white;
+    padding:40px 0;
+}
+
+footer p{
+
+    margin:0;
+}
+
+/* ===========================
+      RESPONSIVE
+=========================== */
+
+@media(max-width:992px){
+
+.hero h1{
+
+font-size:2.9rem;
+
+}
+
+}
+
+@media(max-width:768px){
+
+.hero{
+
+padding:90px 20px;
+
+}
+
+.hero h1{
+
+font-size:2.3rem;
+
+}
+
+.hero p{
+
+font-size:1rem;
+
+}
+
+.btn{
+
+margin-top:12px;
+
+}
+
+}

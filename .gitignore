@@ -1,0 +1,12 @@
+# Private settings (passwords, AWS keys) - never upload
+config/secrets.php
+.env
+
+# Installed by "composer install"
+vendor/
+
+# Misc
+uploads/
+.DS_Store
+.idea/
+.vscode/
