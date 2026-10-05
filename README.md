@@ -95,8 +95,6 @@ Fill in your database details, bucket name, SNS topic ARN and admin password. **
 ### 6. Open the site
 Visit `http://YOUR_EC2_PUBLIC_IP/cloud-lost-found-portal/`
 
-## Screenshots
-_Add screenshots of the home page, report form, dashboard and matches here._
 
 ## Security notes and future improvements
 - Passwords and AWS settings are kept out of the code in `config/secrets.php`.
